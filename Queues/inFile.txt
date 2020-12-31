@@ -1,0 +1,56 @@
+IsEmpty
+IsFull
+List
+Enqueue C 2 
+Enqueue D 4 
+Peek
+PeekPriority
+Enqueue A 1 
+Enqueue B 3
+Enqueue Z 1 
+Enqueue Y 2 
+Enqueue X 3 
+Enqueue W 4
+Enqueue A 5
+IsEmpty
+List
+Dequeue 
+List
+Dequeue
+List
+Dequeue 
+List
+Dequeue
+List
+Dequeue 
+List
+Peek
+PeekPriority
+Dequeue
+List
+Dequeue 
+List
+Dequeue
+List
+Dequeue 
+List
+Dequeue
+List
+Enqueue D 4
+Enqueue B 2
+Peek
+PeekPriority
+MakeEmpty
+IsEmpty
+List
+Enqueue C 3
+Enqueue D 4
+Enqueue A 1
+IsEmpty
+IsFull
+List
+Dequeue
+List
+Peek
+PeekPriority
+Quit

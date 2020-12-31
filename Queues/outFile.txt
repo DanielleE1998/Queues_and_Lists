@@ -1,0 +1,54 @@
+Queue is empty
+Queue is not full
+Queue:
+C is Enqueued
+D is Enqueued
+Front item is C
+Priority of the front item is 2
+A is Enqueued
+B is Enqueued
+Z is Enqueued
+Y is Enqueued
+X is Enqueued
+W is Enqueued
+A is Enqueued
+Queue is not empty
+Queue: A Z C Y B X D W A
+A was dequeued
+Queue: Z C Y B X D W A
+Z was dequeued
+Queue: C Y B X D W A
+C was dequeued
+Queue: Y B X D W A
+Y was dequeued
+Queue: B X D W A
+B was dequeued
+Queue: X D W A
+Front item is X
+Priority of the front item is 3
+X was dequeued
+Queue: D W A
+D was dequeued
+Queue: W A
+W was dequeued
+Queue: A
+A was dequeued
+Queue:
+EmptyQueue exception thrown
+D is Enqueued
+B is Enqueued
+Front item is B
+Priority of the front item is 2
+
+Queue is empty
+Queue:
+C is Enqueued
+D is Enqueued
+A is Enqueued
+Queue is not empty
+Queue is not full
+Queue: A C D
+A was dequeued
+Queue: C D
+Front item is C
+Priority of the front item is 3

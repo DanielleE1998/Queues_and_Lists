@@ -1,0 +1,59 @@
+//SortedList.h
+
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <cstdlib>
+using namespace std;
+
+class FullList{};
+class EmptyList{};
+class DuplicateItem{};
+class IndexOutOfBounds{};
+class ItemNotFound{};
+class InvalidInput{};
+/*
+enum RelationType {LESS, GREATER, EQUAL};
+class ItemType{
+public:
+  ItemType();
+  RelationType compareTo(ItemType) const;
+  void printList(ostream&) const;
+  void init(int num);
+
+private:
+  int val;
+};
+*/
+template <class ItemType>
+struct NodeType {
+  int data;
+  NodeType<ItemType>* next;
+};
+
+template <class ItemType>
+class SortedList{
+ public:
+  //int MAX_ITEMS;
+  SortedList();
+  // SortedList(int size);
+  //~SortedList();
+  bool isEmpty() const;
+  bool isFull() const;
+  int getLength() const;
+  void makeEmpty();
+  ItemType getAt(int index);
+  void insertItem(ItemType newItem);
+  void deleteItem(ItemType newItem);
+  void printList(ofstream & outFile);
+  SortedList merge(SortedList otherList); //T(N) and O(1)
+  NodeType<ItemType>* searchFor(ItemType item);
+ 
+  
+ private:
+  NodeType<ItemType> * ListData;
+  int Length;
+  bool findItem(ItemType item, NodeType<ItemType> *& predecessor);
+};
+
+

@@ -1,0 +1,185 @@
+#include "SortedList.h"
+
+/*
+ItemType::ItemType(){val = 0;}
+RelationType ItemType::compareTo(ItemType other) const{
+  if (val < other.val){return LESS;}
+  else if (val > other.val){ return GREATER;}
+  else if (val == other.val){return EQUAL;}
+}
+
+*/
+
+
+
+//****************************************
+
+template <class ItemType>
+SortedList<ItemType>::SortedList(){
+  //x MAX_ITEMS = 50;
+  Length = 0;
+  ListData = NULL;
+}
+
+/*
+template <class ItemType>
+SortedList<ItemType>::SortedList(int size){
+  MAX_ITEMS = size;
+  Length = 0;
+  ListData = NULL;
+}
+*/
+
+template <class ItemType>
+bool SortedList<ItemType>::isEmpty() const{
+  if (Length == 0){
+    return true;
+  }
+  return false;
+}
+
+template <class ItemType>
+bool SortedList<ItemType>::isFull() const{
+  NodeType<ItemType> * location;
+  try{
+    location = new NodeType<ItemType>;
+    delete location;
+    return false;
+  }
+  catch(bad_alloc exception){
+    return true;
+  }
+}
+
+template <class ItemType>
+int SortedList<ItemType>::getLength() const{
+  return Length;
+}
+
+template <class ItemType>
+void SortedList<ItemType>::insertItem(ItemType newItem){
+
+  NodeType<ItemType> * location;
+  NodeType<ItemType> * newNode = new NodeType<ItemType>;
+  newNode->data = newItem;
+  //cout << newNode->data;
+
+  if (ListData == NULL){
+    
+    ListData = newNode;
+    ListData->data = newNode->data;
+    //cout << "\nListData\t" << ListData->data;
+    Length++;
+  }
+  else{
+    location = ListData;
+    while (location != NULL){
+      if (newNode->data == location->data){
+	throw DuplicateItem();
+	break;
+      }
+      else if(newNode->data > location->data){
+	ListData->next = newNode;
+	Length++;
+	break;
+      }
+      else if (newNode->data < location->data){
+	newNode->next = location;
+	ListData = newNode;
+	Length++;
+	break;
+    
+      }
+    }//while
+  }
+  
+    delete location;
+    delete newNode;
+}//insertItem
+
+/*
+template <class ItemType>
+void SortedList<ItemType>::makeEmpty(){
+  NodeType<ItemType> * location;
+  while (location != NULL){
+    location = ListData;
+    ListData = ListData -> next;
+  }
+  delete location; //O(N)
+}
+
+template <class ItemType>
+ItemType SortedList<ItemType>::getAt(int index){
+  NodeType<ItemType> * location;
+  location = ListData;
+  bool found = false;
+  if (index < Length){
+    while ((location != NULL) && !found){
+     //greater
+     //equal
+     //less
+    }
+  }
+  else{
+    throw IndexOutOfBounds();
+  }
+  delete location;
+}
+
+
+
+template <class ItemType>
+NodeType<ItemType>* SortedList<ItemType>::searchFor(ItemType item){
+  NodeType<ItemTpe> * prev, location;
+  prev = NULL;
+  location = ListData;
+  while (location != NULL && location->info != item){
+    prev = location;
+    location = location ->next;
+  }
+  return prev;
+}
+
+
+
+template <class ItemType>
+void SortedList<ItemType>::deleteItem(ItemType newItem){
+  NodeType<ItemType> * location;
+  prev = searchFOr(item);
+  if (prev == NULL){
+  ListData = ListDate->next;
+  }
+  else{
+    location = prev->next;
+    prev->next = location ->next;
+  }
+  delete location;
+  Length--;
+}
+*/
+
+template <class ItemType>
+void SortedList<ItemType>::printList(ofstream& outFile){
+  NodeType<ItemType> * location = ListData;
+  if (location != NULL){
+      while (location != NULL){
+	outFile<< location->data << " ";
+	location = location -> next;
+      }
+      outFile << "\n";
+    }
+  
+  delete location;
+}
+
+/*
+
+template <class ItemType>
+SortedList SortedList<ItemType>::merge(SortedList otherList){
+}
+
+template <class ItemType>
+bool SortedList<ItemType>::findItem(ItemType item, NodeType<ItemType> *& predecessor){
+}
+*/
+								  

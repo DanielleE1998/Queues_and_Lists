@@ -1,0 +1,112 @@
+#include "SortedList.cpp"
+
+void testIntegerList();
+void testStudentList();
+
+int main() {
+  int datatype;
+  cout << "Enter Elements Type\n";
+  cout << "1\tInteger\n";
+  cout << "2\tStudent\n";
+  cin >> datatype;
+  switch (datatype){
+  case 1: testIntegerList();
+    break;
+    //case 2: testStudentList();
+    // break;
+  }
+}
+
+void testIntegerList(){
+  SortedList<int> list;
+  string command;
+
+  ifstream inFile;
+  ofstream outFile;
+  inFile.open("intcommands.txt");
+  outFile.open("outFile.txt");
+
+  int number;
+
+  outFile << "Enter command:";
+  inFile >> command;
+  outFile << command << "\n";
+
+  while (command != "Quit"){
+    try{
+     
+      if(command == "IsEmpty"){
+	if (list.isEmpty()){
+	  outFile << "List is empty.\n";
+	}
+	else{
+	  outFile << "List is NOT empty.\n";
+	    }
+      }
+
+      else if (command == "IsFull"){
+	if(list.isFull()){
+	  outFile << "List is full.\n";
+	}
+	else {
+	  outFile << "List is NOT full.\n";
+	}
+      }
+      
+	else if(command == "InsertItem"){
+	inFile >> number;
+	list.insertItem(number);
+	}
+      
+	else if (command == "GetLength"){
+	  outFile << "List has length:\t" << list.getLength() <<"\n";}
+
+      /*
+	else if (command == "MakeEmpty"){
+	list.makeEmpty();}
+	
+	else if (command == "GetAt"){
+	inFile >> number;
+	outFile << list.getAt(number);}
+      
+	else if(command == "DeleteItem"){
+	inFile >> number;
+	list.deleteItem(number);}
+      */
+	else if (command ==  "PrintList"){
+	list.printList(outFile);}
+	
+      /*
+	else if (command == "Merge"){
+	list.merge();}
+      */
+      else {
+	throw InvalidInput();
+      }
+    }//try
+    catch(FullList){
+      outFile << "\nFull List Exception thrown. Try again.\n";
+    }
+    catch(EmptyList){
+      outFile << "\nEmpty List Exception thrown. Try again.\n";
+    }
+    catch(DuplicateItem){
+      outFile << "\nDuplicate Item Exception thrown. Try again.\n";
+    }
+    catch(IndexOutOfBounds){
+      outFile << "\nIndexOutOfBounds Exception thrown. Try again.\n";
+    }
+    catch (ItemNotFound){
+      outFile << "\nItemNotFound Exception thrown. Try again\n";
+    }
+    catch (InvalidInput){
+      outFile << "InvalidInput Exception thrown. Try again\n";
+    }
+
+    outFile << "\nEnter command:";
+    inFile >> command;
+    outFile << command << "\n";
+  }//while
+}//testIntegerList
+
+void testStudentList(){}
