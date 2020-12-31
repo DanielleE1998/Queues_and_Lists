@@ -1,0 +1,2 @@
+numTellers 3
+numCustomers 100

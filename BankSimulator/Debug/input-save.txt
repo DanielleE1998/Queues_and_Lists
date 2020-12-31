@@ -1,0 +1,11 @@
+numTellers 3
+numCustomers 150
+Customer1 arrival 25 service 480
+Customer2 arrival 40 service 120
+Customer3 arrival 60 service 300
+Customer4 arrival 75 service 240
+Customer5 arrival 25 service 480
+Customer6 arrival 40 service 120
+Customer7 arrival 60 service 300
+Customer8 arrival 75 service 240
+

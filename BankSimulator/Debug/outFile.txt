@@ -1,0 +1,172 @@
+Customer1 wait time 0 wait + service time 347
+Customer2 wait time 0 wait + service time 312
+Customer3 wait time 0 wait + service time 418
+Customer4 wait time 0 wait + service time 150
+Customer5 wait time 0 wait + service time 152
+Customer6 wait time 0 wait + service time 219
+Customer7 wait time 0 wait + service time 473
+Customer8 wait time 0 wait + service time 439
+Customer9 wait time 0 wait + service time 186
+Customer10 wait time 0 wait + service time 421
+Customer11 wait time 125 wait + service time 574
+Customer12 wait time 0 wait + service time 400
+Customer13 wait time 38 wait + service time 337
+Customer14 wait time 85 wait + service time 498
+Customer15 wait time 118 wait + service time 321
+Customer16 wait time 109 wait + service time 435
+Customer17 wait time 0 wait + service time 458
+======== 1hour queue statuts ========
+              wait queue has 0 customers
+            teller queue has 1 customers
+Customer18 wait time 0 wait + service time 374
+Customer19 wait time 0 wait + service time 236
+Customer20 wait time 0 wait + service time 134
+Customer21 wait time 0 wait + service time 247
+Customer22 wait time 0 wait + service time 388
+Customer23 wait time 0 wait + service time 197
+Customer24 wait time 0 wait + service time 362
+Customer25 wait time 0 wait + service time 129
+Customer26 wait time 2 wait + service time 469
+Customer27 wait time 0 wait + service time 313
+Customer28 wait time 146 wait + service time 518
+Customer29 wait time 301 wait + service time 486
+Customer30 wait time 206 wait + service time 511
+Customer31 wait time 0 wait + service time 417
+Customer32 wait time 0 wait + service time 236
+Customer33 wait time 0 wait + service time 144
+Customer34 wait time 90 wait + service time 250
+======== 2hour queue statuts ========
+              wait queue has 0 customers
+            teller queue has 0 customers
+Customer35 wait time 0 wait + service time 311
+Customer36 wait time 0 wait + service time 170
+Customer37 wait time 0 wait + service time 225
+Customer38 wait time 49 wait + service time 212
+Customer39 wait time 0 wait + service time 269
+Customer40 wait time 0 wait + service time 198
+Customer41 wait time 0 wait + service time 409
+Customer42 wait time 0 wait + service time 180
+Customer43 wait time 0 wait + service time 175
+Customer44 wait time 0 wait + service time 432
+Customer45 wait time 0 wait + service time 448
+Customer46 wait time 0 wait + service time 259
+Customer47 wait time 0 wait + service time 261
+Customer48 wait time 0 wait + service time 197
+Customer49 wait time 0 wait + service time 311
+Customer50 wait time 0 wait + service time 252
+Customer51 wait time 0 wait + service time 371
+Customer52 wait time 0 wait + service time 402
+Customer53 wait time 0 wait + service time 120
+Customer54 wait time 0 wait + service time 338
+Customer55 wait time 0 wait + service time 231
+Customer56 wait time 111 wait + service time 577
+======== 3hour queue statuts ========
+              wait queue has 0 customers
+            teller queue has 1 customers
+Customer57 wait time 0 wait + service time 329
+Customer58 wait time 0 wait + service time 413
+Customer59 wait time 103 wait + service time 540
+Customer60 wait time 0 wait + service time 431
+Customer61 wait time 0 wait + service time 125
+Customer62 wait time 0 wait + service time 397
+Customer63 wait time 0 wait + service time 440
+Customer64 wait time 0 wait + service time 244
+Customer65 wait time 39 wait + service time 263
+Customer66 wait time 77 wait + service time 346
+Customer67 wait time 41 wait + service time 446
+Customer68 wait time 0 wait + service time 164
+Customer69 wait time 0 wait + service time 199
+Customer70 wait time 0 wait + service time 438
+Customer71 wait time 0 wait + service time 317
+Customer72 wait time 0 wait + service time 396
+Customer73 wait time 0 wait + service time 157
+Customer74 wait time 0 wait + service time 382
+Customer75 wait time 0 wait + service time 301
+Customer76 wait time 0 wait + service time 138
+Customer77 wait time 0 wait + service time 251
+Customer78 wait time 0 wait + service time 140
+Customer79 wait time 0 wait + service time 252
+Customer80 wait time 96 wait + service time 425
+======== 4hour queue statuts ========
+              wait queue has 1 customers
+            teller queue has 3 customers
+Customer81 wait time 108 wait + service time 522
+Customer82 wait time 0 wait + service time 320
+Customer83 wait time 51 wait + service time 310
+Customer84 wait time 148 wait + service time 593
+Customer85 wait time 32 wait + service time 427
+Customer86 wait time 152 wait + service time 395
+Customer87 wait time 148 wait + service time 475
+Customer88 wait time 0 wait + service time 185
+Customer89 wait time 0 wait + service time 159
+Customer90 wait time 0 wait + service time 247
+Customer91 wait time 0 wait + service time 260
+Customer92 wait time 0 wait + service time 315
+Customer93 wait time 51 wait + service time 222
+Customer94 wait time 0 wait + service time 332
+Customer95 wait time 0 wait + service time 468
+Customer96 wait time 0 wait + service time 312
+Customer97 wait time 252 wait + service time 663
+Customer98 wait time 137 wait + service time 562
+Customer99 wait time 258 wait + service time 643
+Customer100 wait time 364 wait + service time 734
+Customer101 wait time 165 wait + service time 555
+Customer102 wait time 228 wait + service time 605
+Customer103 wait time 329 wait + service time 760
+Customer104 wait time 214 wait + service time 414
+Customer105 wait time 117 wait + service time 453
+Customer106 wait time 0 wait + service time 282
+Customer107 wait time 0 wait + service time 437
+======== 5hour queue statuts ========
+              wait queue has 0 customers
+            teller queue has 1 customers
+Customer108 wait time 0 wait + service time 414
+Customer109 wait time 0 wait + service time 349
+Customer110 wait time 0 wait + service time 191
+Customer111 wait time 0 wait + service time 303
+Customer112 wait time 0 wait + service time 211
+Customer113 wait time 0 wait + service time 153
+Customer114 wait time 0 wait + service time 218
+Customer115 wait time 0 wait + service time 340
+Customer116 wait time 0 wait + service time 476
+Customer117 wait time 101 wait + service time 253
+Customer118 wait time 15 wait + service time 379
+Customer119 wait time 0 wait + service time 478
+Customer120 wait time 74 wait + service time 249
+Customer121 wait time 13 wait + service time 304
+Customer122 wait time 0 wait + service time 444
+Customer123 wait time 84 wait + service time 445
+Customer124 wait time 167 wait + service time 446
+Customer125 wait time 0 wait + service time 327
+Customer126 wait time 13 wait + service time 481
+Customer127 wait time 0 wait + service time 180
+Customer128 wait time 0 wait + service time 194
+======== 6hour queue statuts ========
+              wait queue has 0 customers
+            teller queue has 1 customers
+Customer129 wait time 0 wait + service time 175
+Customer130 wait time 0 wait + service time 207
+Customer131 wait time 0 wait + service time 236
+Customer132 wait time 0 wait + service time 372
+Customer133 wait time 0 wait + service time 401
+Customer134 wait time 0 wait + service time 439
+Customer135 wait time 0 wait + service time 142
+Customer136 wait time 87 wait + service time 480
+Customer137 wait time 99 wait + service time 257
+Customer138 wait time 235 wait + service time 369
+Customer139 wait time 303 wait + service time 650
+Customer140 wait time 0 wait + service time 278
+Customer141 wait time 0 wait + service time 299
+Customer142 wait time 0 wait + service time 364
+Customer143 wait time 0 wait + service time 400
+Customer144 wait time 0 wait + service time 120
+Customer145 wait time 0 wait + service time 429
+Customer146 wait time 0 wait + service time 452
+Customer147 wait time 0 wait + service time 297
+Customer148 wait time 0 wait + service time 303
+Customer149 wait time 0 wait + service time 299
+Customer150 wait time 0 wait + service time 464
+======== 7hour queue statuts ========
+              wait queue has 0 customers
+            teller queue has 2 customers
+Average waiting time = 37.8733 seconds  or 0.631222minutes
